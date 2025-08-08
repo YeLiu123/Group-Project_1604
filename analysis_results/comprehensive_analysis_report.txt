@@ -1,0 +1,71 @@
+QUIZ ANSWER PATTERN ANALYSIS - COMPREHENSIVE REPORT
+================================================================================
+Generated on: 2025-08-08 14:48:15
+Analysis duration: 5.80 seconds
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Total Questions Analyzed: 100
+Questions with Responses: 100 (100.0%)
+Overall Mean Answer: 2.49 (on scale 1-4)
+Standard Deviation: 0.98
+
+PATTERN ANALYSIS RESULTS
+----------------------------------------
+PATTERNS DETECTED (20 found):
+  1. Arithmetic progression starting at position 0
+  2. Arithmetic progression starting at position 8
+  3. Arithmetic progression starting at position 12
+  4. Arithmetic progression starting at position 17
+  5. Arithmetic progression starting at position 24
+  6. Arithmetic progression starting at position 40
+  7. Arithmetic progression starting at position 41
+  8. Arithmetic progression starting at position 50
+  9. Arithmetic progression starting at position 52
+  10. Arithmetic progression starting at position 56
+  11. Arithmetic progression starting at position 57
+  12. Arithmetic progression starting at position 65
+  13. Arithmetic progression starting at position 68
+  14. Arithmetic progression starting at position 72
+  15. Arithmetic progression starting at position 73
+  16. Arithmetic progression starting at position 84
+  17. Arithmetic progression starting at position 85
+  18. Arithmetic progression starting at position 88
+  19. Arithmetic progression starting at position 93
+  20. Arithmetic progression starting at position 97
+
+RANDOMNESS ANALYSIS: High randomness - answers appear genuinely random
+TREND ANALYSIS: No significant trend in answer sequence
+
+DETAILED STATISTICAL ANALYSIS
+----------------------------------------
+Total Questions: 100
+Answered Questions: 100
+Unanswered Questions: 0
+Completion Rate: 100.0000
+Overall Mean: 2.4948
+Median: 2.6458
+Std Deviation: 0.9785
+Min Mean: 1.0000
+Max Mean: 4.0000
+Variance: 0.9575
+
+DATA PREPARATION SUMMARY
+----------------------------------------
+Files processed: 25
+Method: local_simulation
+
+ANSWER EXTRACTION SUMMARY
+----------------------------------------
+Total files: 25
+Successful extractions: 25
+Overall completion rate: 92.8%
+
+CONCLUSIONS AND RECOMMENDATIONS
+----------------------------------------
+HYPOTHESIS: DELIBERATE PATTERN DETECTED
+Evidence suggests the quiz setter may have used a deliberate
+pattern in arranging the correct answers.
+
+END OF REPORT
+================================================================================
