@@ -3,28 +3,26 @@
 Python Quiz Answers Pattern Analysis — group project on a 100-question multiple-choice quiz (25 respondents). This repository contains a complete modular pipeline to parse, prepare, analyze, visualize, and report potential answer patterns.
 
 ## Roles & Contributions
-- Owner of this repo (me): responsible for Task 1 and Task 4
+- Owner of this repo (me): responsible for Task 3 and Task 4
 - Personal responsibilities and contributions:
-  - Task 1 – Parsing Module (`data_extraction_M1.py`)
-    - Implemented `extract_answers_sequence(file_path)`: parse each raw quiz file into a list of 100 integers (1–4; 0 = unanswered)
-    - Implemented `write_answers_sequence(answers, n)`: save parsed sequences as `answers_list_respondent_n.txt`
-    - Added robust validation and error handling aligned with the given file format
+  - Task 3 – Analysis Module (`data_analysis_M3.py`)
+    - Implemented `generate_means_sequence(collated_answers_path)`: compute per-question means (excluding 0)
+    - Implemented `visualize_data(path, n)`: n=1 (means scatter), n=2 (all respondents line plot, unanswered at y=0 with baseline)
+    - Implemented `analyze_answer_patterns(collated_answers_path)`: basic pattern checks and statistical summary
   - Task 4 – Integration & Execution (`run_full_analysis_M4.py`)
     - Integrated M1/M2/M3 into a full pipeline: Data Preparation → Answer Extraction → Statistical Analysis → Pattern Detection → Visualization/Reporting
     - Produced outputs: `analysis_results/comprehensive_analysis_report.txt` and `analysis_results/analysis_results.json`
     - Unified visualization: all figures are saved to `pics/` first, then displayed
 
-## Other Team Tasks – Status
-- Task 2 – Download & Collation Module (`data_preparation_M2.py`): Completed
+## Other Team Tasks – Status (by teammates)
+- Task 1 – Parsing Module (`data_extraction_M1.py`): Completed by teammate
+  - `extract_answers_sequence(file_path)`: parse each raw quiz file into a list of 100 integers (1–4; 0 = unanswered)
+  - `write_answers_sequence(answers, n)`: save parsed sequences as `answers_list_respondent_n.txt`
+  - Robust validation and error handling for the given file format
+- Task 2 – Download & Collation Module (`data_preparation_M2.py`): Completed by teammate
   - `download_answer_files(cloud_url, data_dir, n)`: download `a1.txt..an.txt` and rename to `answers_respondent_i.txt`
   - `collate_answer_files(data_dir)`: merge into `output/collated_answers.txt`, with respondents separated by a single line containing `*`
   - `simulate_download_from_local()`: convenient local testing by copying from `quiz_answers_named_a1_to_a25/`
-- Task 3 – Analysis Module (`data_analysis_M3.py`): Completed
-  - `generate_means_sequence(collated_answers_path)`: compute per-question means (excluding 0)
-  - `visualize_data(path, n)`:
-    - n=1: scatter plot of per-question means (supports data folder or collated file)
-    - n=2: line plot for all respondents across questions 1–100 (unanswered shown at y=0 with a baseline)
-  - `analyze_answer_patterns()`: basic pattern checks and statistical summary
 
 ## How to Run
 1) Prepare data
